@@ -86,17 +86,16 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--theme-color);;
-}
+    color: var(--theme-color);
 
-.footer-div {
+    .footer-div {
     border: 2px solid var(--theme-color);
     border-radius: 20px;
     width: 20%;
     padding: 7px;
-}
+ }
 
- summary {
+  summary {
     list-style: none;
     cursor: pointer;
     display: flex;
@@ -104,24 +103,31 @@ footer {
     align-items: center;
     gap: 5px;
     width: 100%;
-}
+ }
 
-summary::-webkit-details-marker,
+ summary::-webkit-details-marker,
 summary::marker {
     display: none;
-}
+ }
 
 details[open] .arrow {
     transform: rotate(180deg);
-}
+ }
 
-.arrow {
+ .arrow {
     transition: transform 0.3s ease;
-}
+ }
 
 details p {
     text-align: center;
     margin-top: 8px;
+ }
+
 }
+
+
+
+
+
 
 
