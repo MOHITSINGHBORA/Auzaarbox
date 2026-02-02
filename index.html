@@ -4,40 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>to-do-list</title>
+    <title>AuzaarBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Lugrasimo&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/5cce939377.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header>
-        <h1>My List</h1>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="./assets/auzaarbox.webp" alt="auzaarbox"></a>
+            </div>
+
+            <div class="home-theme">
+                <div class="home">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="mode">
+                    <button class="dark-mode"><i class="fa-solid fa-sun"></i></button>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <input type="text" id="todo-input" placeholder="Enter a todo and press ADD or ENTER">
-        <button id="add-btn">
-            <i class="fa-solid fa-plus"></i>
-        </button>
-        <ul id="todo-list"></ul>
-    </main>
+        <div class="home-body">
 
-    <footer>
+            <div class="tool-card">
 
-        <div class="footer-div">
-            <details>
-                <summary>
-                <span>Things to know before use</span>
-                <i class="fa-solid fa-chevron-down arrow"></i>
-                </summary>
-                <p>Double click to edit the todo.</p>
-            </details>
+                <a href="./to-do-list/todolist.html">
+                    <section class="to-do-list tool">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                        <h2>To Do List</h2>
+                    </section>
+                </a>
+
+
+
+                <a href="">
+                    <section class="calculator tool">
+                        <i class="fa-solid fa-calculator"></i>
+                        <h2>calculator</h2>
+                    </section>
+                </a>
+
+
+                <a href="">
+                    <section class="timer tool">
+                        <i class="fa-solid fa-hourglass-end"></i>
+                        <h2>Timer</h2>
+                    </section>
+                </a>
+
+                <a href="">
+                    <section class="stop-watch tool">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <h2>Stop Watch</h2>
+                    </section>
+                </a>
+
+
+
+                <a href="">
+                    <section class="Weather tool">
+                        <i class="fa-solid fa-cloud-moon"></i>
+                        <h2>Weather Forcast</h2>
+                    </section>
+                </a>
+
+
+                <a href="">
+                    <section class="expance-tracker tool">
+                        <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                        <h2>Expance Tracker</h2>
+                    </section>
+                </a>
+
+
+                <a href="">
+                    <section class="income-tax-calculator tool">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <h2>Income Tax calculator</h2>
+                    </section>
+                </a>
+
+
+            </div>
+
+
+
         </div>
-
-    </footer>
-
-    <script src="script.js"></script>
+    </main>
 </body>
 
 </html>
