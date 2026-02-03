@@ -64,6 +64,8 @@ main {
     box-shadow: 0 0 10px var(--theme-color);
 }
 
+
+
 #add-btn {
     width: 3rem;
     height: 2.5rem;
@@ -78,10 +80,6 @@ main {
 
 #add-btn:hover{
  background-color: rgb(66, 63, 63);;
-}
-
-#add-btn i:hover{
-     background-color: rgb(66, 63, 63);;
 }
 
 #todo-input::placeholder {
