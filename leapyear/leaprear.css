@@ -27,15 +27,13 @@ body {
     padding: 0 16px;
 }
 
-.h1-input {
+.h1-input-output {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(--color-dark);
+    color: var(--color-dark)
 }
-
-  
 
 .input-bar {
     display: flex;
@@ -75,7 +73,6 @@ body {
     -moz-appearance: textfield;
 }
 
-
 button {
     background-color: var(--background-color);
     border-radius: 20px;
@@ -92,14 +89,6 @@ button:hover{
     background-color: rgb(66, 63, 63);;
 }
 
-#result{
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  width: 50%;
-  color: var(--color-dark);
-   
+span{
+    margin-top: 50px;
 }
