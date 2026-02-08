@@ -139,3 +139,9 @@ main .home-body {
     color: var(--color-dark);
     text-align: center;
 }
+
+.tool-card span{
+    color: var(--color-dark);
+    font-size: 1.5rem;
+    font-weight:bold;
+}
