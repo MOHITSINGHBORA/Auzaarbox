@@ -1,0 +1,61 @@
+:root {
+    --color-dark: rgb(201, 200, 200);
+    --background-color-dark: rgb(43, 40, 40);
+    --hover-background-color: rgb(63, 62, 62);
+    --theme-color: rgb(201, 200, 200);
+}
+
+::selection {
+    color: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: var(--background-color-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#input {
+    font-size: 1.3rem;
+    background-color: var(--background-color-dark);
+    color: var(--color-dark);
+    border-radius: 20px;
+    border: 2px solid var(--color-dark);
+    width: 85%;
+    height: 40px;
+    padding: 0 20px;
+    text-align: right;
+
+}
+
+#input:focus {
+    outline: none;
+    box-shadow: none;
+    box-shadow: 0 0 10px var(--theme-color);
+}
+
+#button {
+    font-size: 1.3rem;
+    color: var(--color-dark);
+    height: 3.2rem;
+    width: 3.4rem;
+    background-color: var(--background-color-dark);
+    border: 2px, solid var(--color-dark);
+    border-radius: 50px;
+    margin-right: 15px;
+    transition: background-color 0.3s ease;
+
+}
+
+#button:hover {
+    background-color: var(--hover-background-color);
+}
