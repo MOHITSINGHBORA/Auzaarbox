@@ -43,7 +43,7 @@ body {
     box-shadow: 0 0 10px var(--theme-color);
 }
 
-#button {
+.button {
     font-size: 1.3rem;
     color: var(--color-dark);
     height: 3.2rem;
